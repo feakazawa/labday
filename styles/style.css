@@ -56,9 +56,87 @@ a:hover {
   color: #0070bb;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.container > div {
+  flex: 1;
+}
+
+.study-title-format h3 {
+  color: #005f69; /* peacock blue */
+}
+
+.edit-image-length {
+  width: 70%;
+  height: auto;
+}
+
+th,
+td {
+  /* border: #000000 solid; */
+  border-bottom: #000000 solid;
+  padding: 8px;
+}
+
+.course-color {
+  color: white;
+  background-color: #004792;
+}
+
+#international-mobility {
+  color: #1a1f71; /*visa blue*/
+}
+
+#undergraduate-research {
+  color: #4c516d; /*independence*/
+}
+
+#jr-enterprise {
+  color: #4b0082; /*indigo*/
+}
+
+#extension-program {
+  color: #004526; /*lacoste green*/
+}
+
+#internship {
+  color: #005f69; /* peacock blue */
+}
+
+#master-path {
+  color: #004792; /* lowes blue*/
+}
+
+.footnote {
+  font-size: small;
+}
+
+.contactus a:link {
+  color: #005a9c; /*dodgers blue*/
+}
+
+.contactus a:hover {
+  background-color: #add8e6;
+  color: #032757;
+  padding: 10px;
+}
+
+ul {
+  list-style-type: none;
+}
+
 footer {
   color: #ffffff;
   background-color: #032757;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
 }
