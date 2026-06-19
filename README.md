@@ -77,4 +77,4 @@ Keep layout simple. No Flexbox or Grid required.
 ## Deployment
 
 Deploy the project to Netlify.
-
+Netlify link: https://cool-entremet-901c5d.netlify.app/
